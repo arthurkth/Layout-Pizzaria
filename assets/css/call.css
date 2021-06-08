@@ -1,0 +1,49 @@
+
+.call__title{
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 1rem;
+    color: var(--texto);
+    font-style: italic;
+    font-weight: 400;
+}
+.call__text{
+    color: var(--texto);
+    line-height: 1.5;
+    font-weight: 100;
+    padding: 2rem 0.5rem;    
+}
+
+@media (min-width:768px){
+    .call{
+        width: 100%;
+        max-width: 600px;
+        margin: auto;
+        background: var(--secundario);
+        border-right: 1px solid var(--texto);
+        border-left: 1px solid var(--texto);
+        padding: 8rem 2rem;
+        
+    }
+    .call__title{
+        font-size: 2rem;
+    }
+    .call__text{
+        font-size: 1.2rem;
+    }
+}
+
+@media (min-width:992px){
+    .call__title{
+        font-size: 3.2rem;
+    }
+}
+
+@media (min-width:1200px){
+    .call{
+        max-width: 940px;
+    }
+    .call__text{
+        font-size: 1.4rem;
+    }
+}

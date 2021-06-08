@@ -1,0 +1,19 @@
+:root{
+    --principal: #222020;
+    --secundario: #201e1e;
+    --texto: #c2bebe;
+    --amarelo: #F9C464;
+    --btn-form: #ec2d2d;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #000;
+}
+main{
+   background: var(--principal);
+}
+.container{
+    padding-right: 5%;
+    padding-left: 5%;
+   
+}

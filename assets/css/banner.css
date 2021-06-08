@@ -1,0 +1,22 @@
+.banner{
+    background:   linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../img/pizzariawallpaper.jpg') no-repeat center/cover ;
+    height: 350px;
+    width: 100%;
+
+}
+
+
+@media(min-width:768px){
+    .banner{
+        height: 500px;
+        background: url('../img/pizzariawallpaper.jpg') no-repeat center/cover ;
+    }
+}
+
+
+@media (min-width:992px){
+    .banner{
+        height: 100vh;
+        background-attachment: fixed;
+    }
+}

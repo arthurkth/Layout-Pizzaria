@@ -1,0 +1,39 @@
+.sushi-call {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../img/sushi.jpg") no-repeat center/cover;
+  height: 350px;
+  width: 100%;
+  position: relative;
+}
+
+.sushi-call__text {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--texto);
+  font-size: 2rem;
+  font-weight: bold;
+  width: 70%;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .sushi-call {
+    height: 500px;
+  }
+
+  .sushi-call__text{
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .sushi-call {
+    height: 100vh;
+    background-attachment: fixed;
+  }
+  .sushi-call__text{
+    font-size: 4rem;
+  }
+}
